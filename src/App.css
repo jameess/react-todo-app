@@ -1,0 +1,56 @@
+.App{
+  background-color:black;
+display: flex;
+justify-content: center;
+
+
+  
+}
+.wrapper{
+  background-color: gray; 
+ margin-top: 20px;
+  width:60%;
+
+
+}
+h1{
+  text-align: center;
+  color:greenyellow;
+}
+form{
+  display: flex;
+  justify-content: center;
+  
+}
+form input{
+  width: 50%;
+  height:28px;
+}
+ul{
+  list-style-type: none;
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+ 
+  
+}
+li{
+    display: grid;
+  grid-template-columns: 10fr  1fr;
+  grid-template-rows: 1fr;
+  border:1px solid black;
+  padding: 10px;
+  margin:5px 25px 0 0;
+  
+}
+.lists{
+  margin-top: 5px;
+  overflow-x: hidden;
+}
+.buttons button{
+  margin-left: 30px;
+  width:30px;
+ 
+  height:30px;
+}
